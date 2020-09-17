@@ -1,6 +1,6 @@
 # fizzbuzz-demo
 
-Fizzbuzz demo for DoiT International.
+Fizzbuzz demo for DoiT International
 
 ## Details
 
@@ -23,10 +23,13 @@ With data.json from this repository
 
 
 ## Testing
+The app is running at:
+
+<https://fizzbuzz-y3cdxhqi6a-uc.a.run.app>
+
+To test it, run:
 
     curl -H "Content-Type: application/json" --request POST -d '{"count":30}' https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz
-
-
 
 
 ## Credits
