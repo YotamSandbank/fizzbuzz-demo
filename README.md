@@ -18,8 +18,7 @@ Run:
 Send post request:
 
     curl -H "Content-Type: application/json" --request POST -d '{"count":30}' http://localhost:49160/fizzbuzz
-    
-With data.json from this repository
+
 
 
 ## Testing
