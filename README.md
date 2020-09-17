@@ -7,9 +7,9 @@ Fizzbuzz demo for DoiT International.
 A Fizzbuzz  ExpressJS application
 
 ## Usage
-Pull docker from here:
+Pull docker:
 
-<https://hub.docker.com/r/yotamsandbank/fizzbuzz-demo>
+    docker pull yotamsandbank/fizzbuzz-demo
 
 Run:
 
