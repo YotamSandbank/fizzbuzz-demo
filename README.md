@@ -8,7 +8,9 @@ A Fizzbuzz  ExpressJS application
 
 ## Usage
 Pull docker from here:
-https://hub.docker.com/r/yotamsandbank/fizzbuzz-demo
+
+<https://hub.docker.com/r/yotamsandbank/fizzbuzz-demo>
+
 Run:
 
     docker run -p 49160:8080 -d yotamsandbank/fizzbuzz-demo
@@ -22,10 +24,12 @@ With data.json from this repository
 
 ## Testing
 Send a post request with json in the format {"count":n} to the following:
-https://vibrant-waters-289607.df.r.appspot.com/fizzbuzz
+
+<https://vibrant-waters-289607.df.r.appspot.com/fizzbuzz>
 
 You can send the request using this:
-https://reqbin.com/
+
+<https://reqbin.com/>
 
 
 ## Credits
