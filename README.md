@@ -25,7 +25,7 @@ With data.json from this repository
 ## Testing
 Send a post request with json in the format {"count":n} to the following:
 
-<https://vibrant-waters-289607.df.r.appspot.com/fizzbuzz>
+<https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz>
 
 You can send the request using this:
 
