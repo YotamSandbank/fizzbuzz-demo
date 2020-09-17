@@ -17,14 +17,14 @@ Run:
     
 Send post request:
 
-    curl -H "Content-Type: application/json" --request POST -d '{"count":30}' https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz
+    curl -H "Content-Type: application/json" --request POST -d '{"count":30}' http://localhost:49160/fizzbuzz
     
 With data.json from this repository
 
 
 ## Testing
 
-    curl -H "Content-Type: application/json" --request POST -d "@data.json" https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz
+    curl -H "Content-Type: application/json" --request POST -d '{"count":30}' https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz
 
 
 
