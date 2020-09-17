@@ -17,19 +17,16 @@ Run:
     
 Send post request:
 
-    curl -H "Content-Type: application/json" --request POST -d "@data.json" http://localhost:49160/fizzbuzz
+    curl -H "Content-Type: application/json" --request POST -d '{"count":30}' https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz
     
 With data.json from this repository
 
 
 ## Testing
-Send a post request with json in the format {"count":n} to the following:
 
-<https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz>
+    curl -H "Content-Type: application/json" --request POST -d "@data.json" https://fizzbuzz-y3cdxhqi6a-uc.a.run.app/fizzbuzz
 
-You can send the request using this:
 
-<https://reqbin.com/>
 
 
 ## Credits
